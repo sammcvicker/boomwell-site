@@ -1,0 +1,12 @@
+body {
+    background-color: #002b36;
+    text-align: center;
+}
+
+img {
+    image-rendering: pixelated;
+    width: 272px;
+    height: 300px;
+    margin: auto;
+    margin-top: max(calc(50vh - 300px), 20px)
+}
