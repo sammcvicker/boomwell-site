@@ -1,6 +1,10 @@
 body {
-    background-color: #002b36;
+    /* background-color: #002b36; */
+    background-color: black;
     text-align: center;
+    color: #dc322f;
+    font-family: monospace;
+    font-size: 12pt;
 }
 
 img {
@@ -9,4 +13,19 @@ img {
     height: 300px;
     margin: auto;
     margin-top: max(calc(50vh - 300px), 20px)
+}
+
+#manifesto {
+    max-width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-top: 60px;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
 }
